@@ -137,9 +137,14 @@ export default function Projects() {
               </div>
 
               {/* View Btn */}
-              <button className="mt-auto w-full py-2 rounded-lg bg-primary text-white font-medium hover:opacity-90 transition flex items-center justify-center gap-2">
+              <a
+                href="https://github.com/Kanishk1165?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-auto w-full py-2 rounded-lg bg-primary text-white font-medium hover:opacity-90 transition flex items-center justify-center gap-2"
+              >
                 <Eye size={18} /> View Project
-              </button>
+              </a>
             </CardContent>
           </Card>
         ))}
